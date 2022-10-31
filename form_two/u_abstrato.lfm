@@ -1,0 +1,26 @@
+object f_abstrato: Tf_abstrato
+  Left = -7
+  Height = 635
+  Top = 37
+  Width = 1275
+  BorderStyle = bsSingle
+  Caption = 'Abs'
+  ClientHeight = 635
+  ClientWidth = 1275
+  Color = clActiveCaption
+  LCLVersion = '2.2.4.0'
+  object Label1: TLabel
+    Left = 0
+    Height = 94
+    Top = -6
+    Width = 1276
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Banco Digital'
+    Color = clAppWorkspace
+    Font.Height = -67
+    ParentColor = False
+    ParentFont = False
+    Transparent = False
+  end
+end

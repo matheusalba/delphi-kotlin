@@ -1,0 +1,34 @@
+inherited f_usuario: Tf_usuario
+  Left = 28
+  Height = 640
+  Top = 14
+  Caption = 'Usuário'
+  ClientHeight = 0
+  ClientWidth = 0
+  OnCreate = FormCreate
+  object Button1: TButton[1]
+    Left = 8
+    Height = 33
+    Top = 96
+    Width = 155
+    Caption = 'Cadastro de Usuário'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object btn_validar_usuario: TButton[2]
+    Left = 8
+    Height = 33
+    Top = 144
+    Width = 144
+    Caption = 'Validar Usuário'
+    OnClick = btn_validar_usuarioClick
+    TabOrder = 1
+  end
+  object campo_codigo: TEdit[3]
+    Left = 168
+    Height = 23
+    Top = 152
+    Width = 176
+    TabOrder = 2
+  end
+end

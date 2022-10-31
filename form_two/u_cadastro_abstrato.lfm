@@ -1,0 +1,10 @@
+object f_cadastro_abstrato: Tf_cadastro_abstrato
+  Left = 408
+  Height = 395
+  Top = 293
+  Width = 320
+  BorderStyle = bsSingle
+  Caption = 'Cadastro Abstrato'
+  Color = clActiveCaption
+  LCLVersion = '2.2.4.0'
+end
